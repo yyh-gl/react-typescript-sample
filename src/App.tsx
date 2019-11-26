@@ -1,6 +1,5 @@
 import React from 'react';
 import { renderRoutes, RouteConfigComponentProps } from 'react-router-config';
-
 import './App.css';
 
 const App: React.FC<RouteConfigComponentProps> = ({ route }) => {
