@@ -1,4 +1,4 @@
-import axios, { AxiosResponse, AxiosInstance } from 'axios';
+import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import camelCaseKeys from 'camelcase-keys';
 
 let client: AxiosInstance;
