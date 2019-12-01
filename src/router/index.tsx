@@ -3,15 +3,15 @@ import React from 'react';
 import '../index';
 import { RouteConfig } from 'react-router-config';
 import App from "../App";
-import Profile from "../pages/Profile";
+import Users from "../pages/users";
 
 const routes: RouteConfig[] = [
     {
         component: App,
         routes: [
             {
-                path: '/users/:id',
-                component: Profile,
+                path: '/users',
+                component: Users,
             },
         ]
     }
